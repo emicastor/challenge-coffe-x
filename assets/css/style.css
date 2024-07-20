@@ -1,0 +1,66 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-navbar {
+    font-family: "Roboto Slab", serif;
+}
+
+.font-title {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+h1,
+.h1 {
+    text-wrap: balance;
+}
+
+.box-shadow {
+    box-shadow: 4px 4px;
+}
+
+.bg {
+    background-image: url(../img/bg.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.underline {
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.underline:before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    bottom: 0;
+    left: 30%;
+    border-bottom: 1px solid #6D4900;
+}
+
+.btn-primary-light {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #956300;
+    --bs-btn-border-color: #956300;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #865900;
+    --bs-btn-hover-border-color: #865900;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #865900;
+    --bs-btn-active-border-color: #865900;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #956300;
+    --bs-btn-disabled-border-color: #956300;
+}
+
+@media (min-width: 1200px) {
+    .p-navbar {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
